@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SMP & SMA Mardi Yuana Depok</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background: #f4f6f9;
+      color: #333;
+    }
+
+    header {
+      background: #0d47a1;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #08306b;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffd54f;
+    }
+
+    section {
+      padding: 50px 10%;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #0d47a1;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    .contact {
+      background: #e3f2fd;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #08306b;
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media(max-width: 768px){
+      section {
+        padding: 40px 5%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>SMP & SMA Mardi Yuana Depok</h1>
+    <p>Sekolah Unggul, Berkarakter, dan Berprestasi</p>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#profil">Profil</a>
+    <a href="#fasilitas">Fasilitas</a>
+    <a href="#prestasi">Prestasi</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <!-- PROFIL -->
+  <section id="profil">
+    <h2>Profil Sekolah</h2>
+    <p>
+      SMP dan SMA Mardi Yuana Depok adalah sekolah swasta di bawah Yayasan Mardi Yuana
+      yang berfokus pada pendidikan karakter, akademik, dan nilai Katolik.
+      Sekolah berkomitmen membentuk siswa yang unggul, disiplin, kolaboratif,
+      serta berwawasan lingkungan.
+    </p>
+
+    <br><br>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>SMA Mardi Yuana</h3>
+        <p>
+          Menyiapkan siswa untuk pendidikan tinggi dengan pembelajaran akademik,
+          ekstrakurikuler aktif, serta pembinaan karakter.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>SMP Mardi Yuana</h3>
+        <p>
+          Sekolah terakreditasi A yang mendukung perkembangan akademik,
+          kreativitas, dan bakat siswa sejak dini.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FASILITAS -->
+  <section id="fasilitas">
+    <h2>Fasilitas Sekolah</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>Fasilitas Umum</h3>
+        <ul>
+          <li>Ruang kelas nyaman & ber-AC</li>
+          <li>Perpustakaan</li>
+          <li>Laboratorium IPA & Komputer</li>
+          <li>Lapangan olahraga</li>
+          <li>Ruang OSIS & ekstrakurikuler</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Ekstrakurikuler</h3>
+        <ul>
+          <li>Basket, Futsal, Voli</li>
+          <li>Pramuka</li>
+          <li>Paduan Suara</li>
+          <li>Taekwondo</li>
+          <li>Kegiatan seni & kreativitas</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRESTASI -->
+  <section id="prestasi">
+    <h2>Prestasi Sekolah</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <ul>
+          <li>Masuk jajaran sekolah terbaik di Kota Depok</li>
+          <li>Banyak lulusan diterima di PTN favorit</li>
+          <li>Juara lomba akademik & olahraga tingkat kota/provinsi</li>
+          <li>Program beasiswa bagi siswa berprestasi</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="kontak">
+    <h2>Kontak Kami</h2>
+
+    <div class="contact">
+      <p><b>Alamat:</b> Jl. Cempaka No. 4, Pancoran Mas, Depok, Jawa Barat</p>
+      <p><b>Telepon:</b> (021) 7522036 / 7520091</p>
+      <p><b>Email:</b> smamardiyuanadepok@gmail.com</p>
+      <p><b>Website:</b> www.smamardiyuanadepok.sch.id</p>
+
+      <!-- Google Maps -->
+      <iframe
+        src="https://maps.google.com/maps?q=Jl.%20Cempaka%20No.%204%20Depok&t=&z=15&ie=UTF8&iwloc=&output=embed">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 SMP & SMA Mardi Yuana Depok | All Rights Reserved
+  </footer>
+
+</body>
+</html>
